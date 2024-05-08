@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Classic Console Neue';
+    text-align: center;
+    margin: 0;
+}
+
+.loading5 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 10;
+    opacity: 1;
+}
+
+.loading55 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 10;
+    display: none;
+    opacity: 1;
+}
+
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ffffff;
+    box-sizing: border-box;
+    font-size: 25px;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: yellow;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+  }
+  
+  input[type=submit]:hover {
+    font-size: 30px;
+    background-color: white;
+    color: black;
+  }
+
+  .formg {
+    border: 3px rgb(255, 255, 255) solid;
+    background-color: #000000;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    font-size: 50px;
+  }
+
+  label {
+    color: yellow;
+  }
+
+
+body {
+    background:
+    conic-gradient(from 90deg at 2px 2px,#0000 90deg,rgb(0, 0, 0) 0) 
+    0 0/50px 50px;
+    background-color: #222222;
+}
+
+.menu {
+    background-color:rgb(255, 255, 0);
+    color: black;
+    padding: 0.5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 50px;
+    border: 3px solid black;
+}
+
+h1 {
+    margin: 0;
+    font-size: 75px;
+    color: yellow;
+}
+
+p {
+    font-size: 30px;
+    color: yellow;
+    text-align: left;
+    margin-left: 1%;
+}
+
+
+h1:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+@font-face {
+    font-family: 'Classic Console Neue';
+    src: url('../ClassicConsoleNeue.woff2') format('woff2'),
+        url('../ClassicConsoleNeue.woff') format('woff'),
+        url('../ClassicConsoleNeue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @keyframes moveGradient4 {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 100%; }
+}
+
+.gradient-animation4 {
+    background: conic-gradient(from 90deg at 3px 3px, #00000000 90deg, purple 0) 0 0/50px 50px;
+    animation: moveGradient 20s linear infinite;
+    background-color: black;
+}
